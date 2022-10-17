@@ -45,5 +45,3 @@ for loop in range(0,23):
    WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[@class='MuiButtonBase-root MuiIconButton-root jss17 jss19']"))).click()
 
 df = pd.DataFrame({"Players":PlayersList,"Values":ValuesList})
-
-print(df)
